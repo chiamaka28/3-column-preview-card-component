@@ -15,33 +15,35 @@ section{
     display: flex;
     flex-direction: column;
     font-size: 15px;
-    line-height: 1.4em;
+    line-height: 1.5em;
 }
 .article-1{
-    height: 350px;
-    width: 300px;
+    height: 400px;
+    width: 280px;
     background: hsl(31, 77%, 52%);
-    padding: 25px 55px;
+    padding: 25px 35px;
+    border-radius: 7px 0 0 7px;
 }
 .article-2{
-    height: 350px;
-    width: 300px;
+    height: 400px;
+    width: 280px;
     background:  hsl(184, 100%, 22%);
-    padding: 25px 60px;
+    padding: 25px 35px;
 }
 
 .article-3{
-    height: 350px;
-    width: 300px;
+    height: 400px;
+    width: 280px;
     background: hsl(179, 100%, 13%);
-    padding: 25px 55px;
+    padding: 25px 35px;
+    border-radius: 0 7px 7px 0;
 }
 button{
     width:120px;
     height: 40px;
     border: none;
     border-radius: 25px;
-    margin: 20px 0;
+    margin-top: 65px ;
     background:hsl(0, 0%, 95%);
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
@@ -50,6 +52,7 @@ button{
 
 h2{
     padding: 15px 0;
+    margin-bottom: 15px;
     color:hsl(0, 0%, 95%);
     font-family: 'Big Shoulders Display', cursive;
     font-size: 30px;
@@ -60,7 +63,8 @@ p{
     font-weight: 400;
 }
 .a{
-    color: hsl(31, 77%, 52%)
+    color: hsl(31, 77%, 52%);
+    /* margin-top:20px; */
 }
 .b{
     color:  hsl(184, 100%, 22%);
